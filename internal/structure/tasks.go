@@ -6,9 +6,20 @@ import "dslparser/internal/model"
 func BuildTasks(nodes []*model.Node) []*model.Node {
 	nodes = groupTasks(nodes)
 	for _, n := range nodes {
+		if n.CanonicalName == "task" || n.CanonicalName == "step" {
+			buildTasksBelowRegion(n.Children)
+			continue
+		}
 		n.Children = BuildTasks(n.Children)
 	}
 	return nodes
+}
+
+// buildTasksBelowRegion обрабатывает вложенные физические контейнеры, не повторяя группировку готовой логической области.
+func buildTasksBelowRegion(nodes []*model.Node) {
+	for _, n := range nodes {
+		n.Children = BuildTasks(n.Children)
+	}
 }
 
 // groupTasks переносит последующий материал в открытые на одном уровне задание и этап.
