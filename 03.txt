@@ -1,0 +1,137 @@
+@dsl-version 1.1
+# Stories from Our Neighbourhood
+## Past events and community memories
+
+This lesson practises narrative order and descriptive detail.
+
+### Step 1. A surprising morning
+
+@media video video/morning-story.webm
+@script A surprising morning {
+Narrator: I was walking to work when I heard music in the square.
+Narrator: A brass band was playing, and everyone was dancing.
+Narrator: I stopped for five minutes, but I stayed for an hour.
+}
+
+@task gist
+@instr Choose the best summary.
+@choice Choose one answer. {
+The narrator missed work because the bus broke down.
+The narrator unexpectedly joined a community celebration.
+The narrator practised music alone before work.
+}
+
+@task detail-check
+@instr Answer each question by choosing Yes or No.
+@matching Answer the questions. {
+Was the narrator walking to work?
+Was the square silent?
+Did the narrator leave after five minutes?
+---
+Yes
+No
+}
+
+@task story-order
+@instr Put the events in the order in which they happened.
+@ordering Put the events in order. {
+The narrator heard music.
+The narrator saw people dancing.
+The narrator decided to stop.
+The narrator stayed for an hour.
+}
+
+@header Past continuous and past simple
+@example Contrast {
+I was walking to work
+---
+when I heard music.
+}
+@wordlist {
+walk — walked — walked
+hear — heard — heard
+see — saw — seen
+stay — stayed — stayed
+}
+
+@task grammar-story
+@instr Complete the story with suitable verb forms.
+@multifill Complete the sentences. {
+I _____ (walk) home when I _____ (see) my neighbour.
+She _____ (carry) a large cake, so I _____ (offer) to help.
+}
+@key Answers {
+was walking; saw
+was carrying; offered
+}
+
+### Step 2. Collect a local memory
+
+@task interview
+@editor Confirm that learners are comfortable sharing personal memories.
+@speaking
+@instr Interview a partner about a memorable local event.
+@question Where did the event happen?
+@question What were you doing when it began?
+@question Why do you remember it?
+@multifill {
+Place: _____
+People: _____
+Main event: _____
+}
+
+@step Step 1. Listen
+@note Listen without interrupting.
+
+@step Step 2. Clarify
+@instr Ask at least two follow-up questions.
+
+@step Step 3. Retell
+@alt Retell an event from a book or film if you prefer not to share a personal memory.
+@multifill Plan your retelling. {
+At first, _____
+While _____, _____
+In the end, _____
+}
+
+@newpage
+@header Community exhibition
+
+@instr Read the two exhibition briefs before choosing a role.
+@variants {
+@variant Oral historian
+@task oral-history
+@instr Prepare a two-minute recorded memory.
+@media audio recordings/community-memory.wav
+@text Prompt card {
+Say where and when the event happened.
+Describe what people were doing.
+Explain why the memory is important now.
+}
+@multifill Draft your opening. {
+I remember the day when _____
+}
+@endtask
+
+@variant Exhibition editor
+@task exhibition-label
+@instr Turn the memory into a concise museum label.
+@table {
+Part | Purpose
+Title | Attract attention
+Opening | Locate the event
+Detail | Show why it mattered
+}
+@multichoice Select the details suitable for a public label. {
+The date and place
+One vivid sensory detail
+Unrelated private information
+Why the event mattered
+---
+check
+not check
+}
+}
+
+@note Exhibition labels should be clear enough for visitors who do not know the speakers.
+
