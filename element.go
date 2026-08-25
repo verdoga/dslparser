@@ -32,6 +32,7 @@ const (
 	ElementLower         = "lower"
 	ElementPositions     = "positions"
 	ElementSeparatorName = "separator"
+	ElementPlaceholder   = "placeholder"
 )
 
 // Element представляет разобранную часть универсального узла.
