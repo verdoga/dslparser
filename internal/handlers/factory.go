@@ -33,6 +33,10 @@ func Apply(nodes []*model.Node, lines []model.Line, rules registry.Registry) {
 				applyWordlistBlock(n, lines)
 			case registry.HandlerItems:
 				applyItems(n, lines)
+			case registry.HandlerMatching:
+				applyMatching(n, lines)
+			case registry.HandlerOrdering:
+				applyOrdering(n, lines)
 			}
 		} else if entry.BodyHandler == registry.HandlerWordlist {
 			applyWordlistInline(n)

@@ -66,6 +66,10 @@ func parse(data []byte) (*Document, error) {
 	blocks := structure.Analyze(buildingLines, rules)
 	roots := structure.Build(buildingLines, blocks)
 	handlers.Apply(roots, buildingLines, rules)
+	roots = structure.BuildSteps(roots)
+	structure.MarkOutsideVariants(roots, false)
+	structure.BuildVariants(roots)
+	roots = structure.BuildTasks(roots)
 	doc := &Document{versionRaw: raw, version: canonical, versionSpan: Span{start: Position{line: 1, column: 1}, end: Position{line: 1, column: end}}}
 	for _, root := range roots {
 		doc.roots = append(doc.roots, freezeNode(root))
