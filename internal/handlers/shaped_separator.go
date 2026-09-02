@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"dslparser/internal/model"
-	"dslparser/internal/scan"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/scan"
 )
 
 // separatorIndex находит допустимые локальные разделители и возвращает первый из них.

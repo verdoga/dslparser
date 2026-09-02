@@ -1,6 +1,6 @@
 package structure
 
-import "dslparser/internal/model"
+import "github.com/verdoga/dslparser/internal/model"
 
 // BuildTasks строит области заданий и внутренних этапов и возвращает текущий уровень.
 func BuildTasks(nodes []*model.Node) []*model.Node {

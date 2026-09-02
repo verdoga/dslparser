@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"dslparser/internal/model"
-	"dslparser/internal/scan"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/scan"
 )
 
 // addTokens добавляет универсальные токены без назначения предметных имён.

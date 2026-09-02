@@ -4,8 +4,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"dslparser/internal/model"
-	"dslparser/internal/scan"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/scan"
 )
 
 // Build создаёт физическое дерево, не дублируя строки закрывающих границ.

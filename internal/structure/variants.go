@@ -1,6 +1,6 @@
 package structure
 
-import "dslparser/internal/model"
+import "github.com/verdoga/dslparser/internal/model"
 
 // BuildVariants создаёт логические ветви структурных контейнеров вариантов.
 func BuildVariants(nodes []*model.Node) {

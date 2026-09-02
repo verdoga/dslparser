@@ -1,6 +1,6 @@
 package model
 
-import "dslparser/internal/scan"
+import "github.com/verdoga/dslparser/internal/scan"
 
 // Span задаёт полуоткрытый диапазон в нормализованном исходном тексте.
 type Span struct {

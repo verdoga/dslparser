@@ -3,8 +3,8 @@ package handlers
 import (
 	"unicode/utf8"
 
-	"dslparser/internal/model"
-	"dslparser/internal/scan"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/scan"
 )
 
 // placeholders находит ровно пятисимвольные неэкранированные последовательности подчёркиваний.
