@@ -7,11 +7,11 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"dslparser/internal/handlers"
-	"dslparser/internal/model"
-	"dslparser/internal/normalize"
-	"dslparser/internal/registry"
-	"dslparser/internal/structure"
+	"github.com/verdoga/dslparser/internal/handlers"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/normalize"
+	"github.com/verdoga/dslparser/internal/registry"
+	"github.com/verdoga/dslparser/internal/structure"
 )
 
 // Parse разбирает байтовое представление документа или возвращает типизированную фатальную ошибку.

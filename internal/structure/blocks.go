@@ -4,9 +4,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"dslparser/internal/model"
-	"dslparser/internal/registry"
-	"dslparser/internal/scan"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/registry"
+	"github.com/verdoga/dslparser/internal/scan"
 )
 
 // Analyze классифицирует строки в режиме текущего контейнера и строит карту блоков.

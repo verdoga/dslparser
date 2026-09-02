@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"dslparser/internal/model"
-	"dslparser/internal/registry"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/registry"
 )
 
 // Apply детализирует все известные теги физического дерева.

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"dslparser/internal/model"
-	"dslparser/internal/registry"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/registry"
 )
 
 // FuzzAnalyzeBlocks проверяет устойчивость поиска фигурных границ и корректность их диапазонов.

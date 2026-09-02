@@ -3,7 +3,7 @@ package handlers
 import (
 	"testing"
 
-	"dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/model"
 )
 
 // TestSeparatorBodies проверяет все формы тел с локальным разделителем.

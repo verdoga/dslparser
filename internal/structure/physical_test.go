@@ -3,7 +3,7 @@ package structure
 import (
 	"testing"
 
-	"dslparser/internal/registry"
+	"github.com/verdoga/dslparser/internal/registry"
 )
 
 // TestBuildPreservesPhysicalOrderWithoutBoundaryNodes проверяет вложенность и отсутствие дублирования границ.

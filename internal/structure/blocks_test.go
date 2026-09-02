@@ -3,8 +3,8 @@ package structure
 import (
 	"testing"
 
-	"dslparser/internal/model"
-	"dslparser/internal/registry"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/registry"
 )
 
 // TestAnalyzeDistinguishesStructuralAndOpaqueBlocks проверяет режимы контейнеров и единую карту границ.

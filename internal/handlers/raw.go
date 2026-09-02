@@ -1,6 +1,6 @@
 package handlers
 
-import "dslparser/internal/model"
+import "github.com/verdoga/dslparser/internal/model"
 
 // applyRaw сохраняет непрозрачные строки тела без интерпретации DSL.
 func applyRaw(n *model.Node, lines []model.Line, preserveEmpty bool) {

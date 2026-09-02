@@ -1,6 +1,6 @@
 package structure
 
-import "dslparser/internal/model"
+import "github.com/verdoga/dslparser/internal/model"
 
 // BuildSteps помещает корневые исходные узлы в синтетические области шагов.
 func BuildSteps(nodes []*model.Node) []*model.Node {

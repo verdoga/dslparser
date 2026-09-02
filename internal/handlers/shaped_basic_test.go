@@ -3,9 +3,9 @@ package handlers
 import (
 	"testing"
 
-	"dslparser/internal/model"
-	"dslparser/internal/registry"
-	"dslparser/internal/structure"
+	"github.com/verdoga/dslparser/internal/model"
+	"github.com/verdoga/dslparser/internal/registry"
+	"github.com/verdoga/dslparser/internal/structure"
 )
 
 // TestApplyBuildsShapedGroupsAndExactPlaceholders проверяет группы, порядок и точные Unicode-диапазоны.
